@@ -6,11 +6,11 @@ list_max = list[0]                                              #  let's suppose
 for i in range(len(list)):                                      #  let's go through the list one by one and examine if the particular element is greater than the first / previous one
     if list[i] > list_max:
         list_max = list[i]                                      #  if if the particular element is greater than any of the previous element then change it
-print("The greats number in the list:\n", list_max, sep="")     #  finally print it
+print("\nThe greats number in the list:\n", list_max, sep="")     #  finally print it
 
 
 list_min = list[0]                                              #  in this section everything happening similarly to to the previous one however it's applied to find the smallest number of the list
 for i in range(len(list)):
     if list[i] < list_min:
         list_min = list[i]
-print("The smallest number in the list:\n", list_min, sep="")
+print("\nThe smallest number in the list:\n", list_min, sep="")
